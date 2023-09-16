@@ -1,6 +1,4 @@
-const reverseString = (inputString) => {
-    return inputString.split('').reverse().join('');
-};
+
 
 const calculator = {
     add: (a, b) => {
@@ -17,4 +15,4 @@ const calculator = {
     }
 }
 
-export { reverseString, calculator };
+export { calculator };

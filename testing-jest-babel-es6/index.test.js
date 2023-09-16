@@ -1,8 +1,4 @@
-import { reverseString, calculator } from './index.js';
-
-test('reverse string', () => {
-    expect(reverseString('hello')).toBe('olleh');
-});
+import { calculator } from './index.js';
 
 test('calculator add', () => {
     expect(calculator.add(1, 2)).toBe(3);
